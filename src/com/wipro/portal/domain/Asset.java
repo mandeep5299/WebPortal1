@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+// test comment
 @Entity
 @Table(name="Asset")
 public class Asset implements java.io.Serializable {
