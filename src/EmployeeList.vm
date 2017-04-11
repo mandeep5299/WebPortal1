@@ -1,0 +1,8 @@
+$employeeList.size() Pets on Sale!
+  We are proud to offer these fine pets
+  at these amazing prices.  This month only,
+  choose from:
+  #foreach( $employee in $employeeList )
+    $employee.name for only $employee.employeeID
+  #end
+   Call Today!
